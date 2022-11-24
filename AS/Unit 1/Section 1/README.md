@@ -17,8 +17,8 @@ There are `four` main methods of changeover, as follows:
 ### Parallel Running:
 
 <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="/AS/Unit 1/Section 1/graphics/Parallel Running Dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="./graphics/Parallel Running Light.png">
+    <source media="(prefers-color-scheme: dark)" srcset="./graphics/Parallel%20Running%20Dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="./graphics/Parallel%20Running%20Light.png">
     <img src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png" alt="Example of parallel running." style="width:600px" />
 </picture>
 
