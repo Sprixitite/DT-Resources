@@ -13,7 +13,15 @@
 ### Changeover:
 
 There are `four` main methods of changeover, as follows:
-1) Parallel Running
+
+### Parallel Running:
+
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./graphics/Parallel Running Dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="./graphics/Parallel Running Light.png">
+    <img src="./graphics/Parallel Running Dark.png" alt="Example of parallel running." style="width:600px" />
+</picture>
+
 2) Direct Changeover
 3) Phased Implementation
 4) Pilot Running
