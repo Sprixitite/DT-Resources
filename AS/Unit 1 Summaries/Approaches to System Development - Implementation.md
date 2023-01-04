@@ -134,7 +134,7 @@ Usually the action taken to fix the issue would be issuing a "software patch" th
 ## Adaptive Maintenance:
 Adaptive maintenance is maintenance in response to changes in the working environment of the software, or shifting user requirements.
 
-The dynamic nature of most working environments means that some form of adaptive maintenance is ineviitable. However the need for a high level of adaptive maintenance immediately after the delivery of the software may indicate that the user requirements provided were not sufficient.
+The dynamic nature of most working environments means that some form of adaptive maintenance is inevitable. However the need for a high level of adaptive maintenance immediately after the delivery of the software may indicate that the user requirements provided were not sufficient.
 
 ## Perfective Maintenance:
 Perfective maintenance is maintenance in regards to the improvement of the performance of the software.
