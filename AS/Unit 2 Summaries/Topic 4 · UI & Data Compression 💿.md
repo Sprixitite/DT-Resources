@@ -2,7 +2,7 @@
 
 ### UI Interfaces
 
-**WIMP →** WIMP is an interface style from the 1980s that uses a graphical user interface (GUI) with elements like **::windows, menus, icons, and pointers::**. *It allows users to interact with their computer in an easy and intuitive manner.*
+**WIMP →** WIMP is an interface style from the 1980s that uses a graphical user interface (GUI) with elements like **windows, menus, icons, and pointers**. *It allows users to interact with their computer in an easy and intuitive manner.*
 
 > > **Windows →** The active area on the screen is used to display activity such as processing within a program, files and folders. It can be scrolled, minimised, maximised, opened, and closed, and more than one window can be opened at the same time.
 
