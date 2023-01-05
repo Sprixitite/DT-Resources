@@ -2,9 +2,9 @@
 
 This topic covers the architecture of computers and the internal and external components that are used such as serial ports, buses, registers, memory and the CPU. It also explains how these components work together to enable the computer to operate, such as the fetch-decode-execute cycle, control and data buses, arithmetic logic and control units.
 
-**::These notes are written by James Wilkinson, assisted by Craft AI.::**
+**These notes are written by James Wilkinson, assisted by Craft AI.**
 
----
+----
 
 ### Architecture
 
@@ -24,7 +24,7 @@ The brains of the computer; a component which contains a control unit, a algorit
 
 #### **Memory**
 
-> **Main Memory →** This type of memory is apart of the internal memory, and is always instantly accessible; made up from **::R::**andom **::A::**ccess **::M::**emory (**::RAM::**) / Volatile Memory.
+> **Main Memory →** This type of memory is apart of the internal memory, and is always instantly accessible; made up from **R**andom **A**ccess **M**emory (**RAM**) / Volatile Memory.
 
 > **Random Access Memory →** Volatile, temporary memory that has instant access to all memory locations, used to store programs, files and parts of the OS which are currently being used.
 
