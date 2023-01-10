@@ -14,21 +14,21 @@ The storage capacity in a computer is measured in bytes and its multiples.
 
 #### Multiples Of Bytes
 
-| **Storage Unit** | **Preceding Unit** | **Bytes**  |
-| ---------------- | ------------------ | ---------- |
-| *Byte*           |                    | $$1$$      |
-| *Kilobyte*       | *1024 Bytes*       | $$2^{10}$$ |
-| *Megabyte*       | *1024 Kilobytes*   | $$2^{20}$$ |
-| *Gigabyte*       | *1024 Megabytes*   | $$2^{30}$$ |
-| *Terrabyte*      | *1024 Gigabytes*   | $$2^{40}$$ |
+| **Storage Unit** | **Preceding Unit** | **Bytes** |
+| :--------------- | :----------------: | :-------: |
+| *Byte*           |                    | $1$$      |
+| *Kilobyte*       | *1024 Bytes*       | $2^{10}$  |
+| *Megabyte*       | *1024 Kilobytes*   | $2^{20}$  |
+| *Gigabyte*       | *1024 Megabytes*   | $2^{30}$  |
+| *Terrabyte*      | *1024 Gigabytes*   | $2^{40}$  |
 
 ### Number Systems
 
-In the number system (the decimal/denary system) we use in our day to day lives, each integer number has values of units, tens, hundreds, thousands, etc. Values are written as index numbers starting from the right hand side $$10^0$$, $$10^1$$, $$10^2$$, etc. Then each position to the left of the decimal point indicates an increased positive power of 10.
+In the number system (the decimal/denary system) we use in our day to day lives, each integer number has values of units, tens, hundreds, thousands, etc. Values are written as index numbers starting from the right hand side $10^0$, $10^1$, $10^2$, etc. Then each position to the left of the decimal point indicates an increased positive power of 10.
 
 Computers use the **Binary Numbering System**, where each value is written as a power of 2 starting from the right hand side, and can be indicated by either a **one** or a **zero**. For example, **0101 0101** is equal to **64 + 16 + 4 + 1** which sums up to be a decimal total of **85**.
 
-*further information on conversion between binary and denery is in the card below*
+*further information on conversion between binary and denary is in the table below*
 
 #### Converting Binary ⇿ Denary
 
@@ -38,16 +38,16 @@ In the decimal/denary system, numbers are counted **in powers of 10** whereas in
 
 > #### EXAMPLE
 
-| **Base Two Unit** | **Denery Value** | **Binary Position (1 Byte)** |
-| ----------------- | ---------------- | ---------------------------- |
-| $$2^0$$           | 1                | XXXX XXX**X**                |
-| $$2^1$$           | 2                | XXXX XX**X**X                |
-| $$2^2$$           | 4                | XXXX X**X**XX                |
-| $$2^3$$           | 8                | XXXX **X**XXX                |
-| $$2^4$$           | 16               | XXX**X** XXXX                |
-| $$2^5$$           | 32               | XX**X**X XXXX                |
-| $$2^6$$           | 64               | X**X**XX XXXX                |
-| $$2^7$$           | 128              | **X**XXX XXXX                |
+| **Base Two Unit** | **Denary Value** | **Binary Position (1 Byte)** |
+| :---------------- | ---------------- | ---------------------------- |
+| $2^0$             | 1                | XXXX XXX**X**                |
+| $2^1$             | 2                | XXXX XX**X**X                |
+| $2^2$             | 4                | XXXX X**X**XX                |
+| $2^3$             | 8                | XXXX **X**XXX                |
+| $2^4$             | 16               | XXX**X** XXXX                |
+| $2^5$             | 32               | XX**X**X XXXX                |
+| $2^6$             | 64               | X**X**XX XXXX                |
+| $2^7$             | 128              | **X**XXX XXXX                |
 
 > **This pattern continues forever, the higher the number of bits, the more powers of 2 that are represented in the binary system.**
 
@@ -57,23 +57,23 @@ In the decimal/denary system, numbers are counted **in powers of 10** whereas in
 
 In order to indicate a negative number, we need to utilize a sign/bit to tell the computer that the number is negative. In order to achieve this, we use the **M**ost **S**ignificant **B**it (MSB).  When the MSB has a value of ONE, **the number has a negative value** whereas if the MSB has a value of ZERO, **the number will have a positive value**.
 
-+ > #### **0/-128**   ·   64   ·   32   ·   16   ·   8   ·   2   ·   **1**
+#### **0/-128**   ·   64   ·   32   ·   16   ·   8   ·   2   ·   **1**
 
-> **MSB** · **LSB**
+**MSB** · **LSB**
 
 #### **How To Indicate A Negative Number In Two's Complement**
 
 **Convert your positive number into binary;**
 
-> $$71$$ ⇒ $$0100$$ $$0111$$
+$71$ ⇒ $0100$ $0111$
 
 **Flip the bits;**
 
-> $$0100$$ $$0111 $$⇒ $$1011$$$$1000$$
+$0100$ $0111 $⇒ $1011$$1000$
 
 **Add One.**
 
-> $$1011$$ $$1000$$ $$+$$ $$1$$ ⇒ $$1011$$ $$1001$$
+$1011$ $1000$ $+$ $1$ ⇒ $1011$ $1001$
 
 ### Rules of Binary Arithmetic
 
@@ -83,13 +83,13 @@ Binary numbers can be added, subtracted, multiplied and divided just like number
 
 ## Addition Of Binary Numbers
 
-> $$0 + 0 = 0$$
+$$0 + 0 = 0$$
 
-> $$1 + 0 = 1$$
+$$1 + 0 = 1$$
 
-> $$1 + 1 =$$$$10$$
+$$1 + 1 = 10$$
 
-> $$1 + 1 + 1 = $$$$11$$
+$$1 + 1 + 1 = 11$$
 
 ### Characters
 
@@ -99,8 +99,9 @@ These symbols/characters can be classified as letters, digits & punctuation mark
 
 ***Two examples of character sets are ASCII & Unicode.***
 
-| **Character Set** | **Number of Bits** | **Max Number of Characters** |
-| ----------------- | ------------------ | ---------------------------- |
-| *ASCII*           | 7                  | 128                          |
-| *Unicode*         | 16                 | 65,536                       |
+| **Character Set** | **On Course** | **Number of Bits** | **Max Number of Characters** |
+| :---------------: | :-----------: | :----------------: | :--------------------------: |
+| *ASCII*           | ✔️           | 7                  | 128                          |
+| *Extended ASCII*  | ❌           | 8                  | 256                          |
+| *Unicode*         | ✔️           | 16                 | 65,536                       |
 
